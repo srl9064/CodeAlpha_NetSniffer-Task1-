@@ -1,36 +1,45 @@
-# CodeAlpha - Basic Network Sniffer
+# CodeAlpha – Basic Network Sniffer (Cybersecurity Internship)
 
-This project is part of the CodeAlpha Cyber Security Internship.
+This project is part of the CodeAlpha Cybersecurity Internship – Task 1.  
+It implements a **Python-based network packet sniffer** using the Scapy library.  
+The tool captures live network packets, analyzes them, and logs useful information for cybersecurity analysis.
 
-#Overview
-A simple Python-based network sniffer built using **Scapy**.
-It captures live network packets and prints:
+---
 
-- Source IP
-- Destination IP
-- Protocol (TCP/UDP)
-- Timestamp
-- Packet Length
-Packets can also be saved to a PCAP file.
-### Step 1 — Activate virtual environment
+## Overview
 
-### Step 2 — Run sniffer (sudo required)
+This network sniffer captures real-time traffic and displays:
 
-### Step 3 — View PCAP in Wireshark
-Open the generated `.pcap` file in Wireshark for analysis.
+- **Source IP Address**
+- **Destination IP Address**
+- **Protocol (TCP / UDP / ICMP)**
+- **Packet Length**
+- **Timestamp**
 
-##  Dependencies
-All dependencies are listed in `requirements.txt`.
+It can also save all captured packets to a `.pcap` file so they can be opened in Wireshark for further analysis.
 
-## Tools Used
-- Python 3
-- Scapy
-- Wireshark
-- Ubuntu (WSL)
+---
 
+## Features
 
-- Implemented a basic network sniffer
-- Captured packets in real-time
-- Saved PCAP file
-- Explained how to run the project
+✔ Captures live network traffic  
+✔ Extracts protocol-level packet details  
+✔ Saves packet data to PCAP format  
+✔ Works in Ubuntu (WSL)  
+✔ Built using Python + Scapy  
+✔ Useful for basic cyber forensics and traffic monitoring  
+
+---
+
+## Technologies Used
+
+- **Python 3**
+- **Scapy**
+- **Wireshark**
+- **Ubuntu / WSL**
+- **GitHub**
+
+---
+
+## Project Structure
 
