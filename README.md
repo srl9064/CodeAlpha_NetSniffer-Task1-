@@ -38,8 +38,3 @@ It can also save all captured packets to a `.pcap` file so they can be opened in
 - **Wireshark**
 - **Ubuntu / WSL**
 - **GitHub**
-
----
-
-## Project Structure
-
