@@ -42,22 +42,22 @@ Captured packets can also be saved in **PCAP format**, allowing further analysis
 ##  Installation
 
 1. Clone the repository:
-git clone https://github.com/srl9064/CodeAlpha_NetSniffer
-cd CodeAlpha_NetSniffer
+- git clone https://github.com/srl9064/CodeAlpha_NetSniffer
+- cd CodeAlpha_NetSniffer
 
 2. Create and activate a virtual environment:
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 3. Install dependencies:
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 ---
 
 ##  How to Run
 
 Run the sniffer with root privileges:
-sudo ./venv/bin/python3 sniffer.py -c 5 -o capture.pcap
+- sudo ./venv/bin/python3 sniffer.py -c 5 -o capture.pcap
 
 ### Command Explanation:
 - `-c 5` → Captures 5 packets  
@@ -67,5 +67,5 @@ sudo ./venv/bin/python3 sniffer.py -c 5 -o capture.pcap
 
 ##  Sample Output
 
-[2025-12-09 10:12:01] 172.31.208.114 --> 8.8.8.8 | Protocol: ICMP | Length: 98
-[2025-12-09 10:12:02] 8.8.8.8 --> 172.31.208.114 | Protocol: ICMP | Length: 98
+- [2025-12-09 10:12:01] 172.31.208.114 --> 8.8.8.8 | Protocol: ICMP | Length: 98
+- [2025-12-09 10:12:02] 8.8.8.8 --> 172.31.208.114 | Protocol: ICMP | Length: 98
